@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.surrey.ac.uk/school-engineering'>School of Engineering, University of Surrey</a>. Guildford, Surrey GU2 7XH, UK. +44 (0)1483 688784. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: surrey_dk_build.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
