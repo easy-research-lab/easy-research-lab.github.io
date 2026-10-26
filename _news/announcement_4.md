@@ -20,9 +20,9 @@ Alex received the award for his dissertation on an energy conversion system for 
     <em>Fig. 1. Design and development of a downhole turbine-based energy conversion system.</em>
 </div>
 
-<div class="row">
+<div class="row text-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        <img src="/assets/img/news_img/james2026imeche.png" class="img-fluid rounded z-depth-1 mx-auto d-block" style="width: 50%; height: auto;" alt="james2026imeche" />
+        <img src="/assets/img/news_img/james2026imeche.png" class="img-fluid rounded z-depth-1" style="width: 30%; height: auto;" alt="james2026imeche" />
     </div>
 </div>
 
