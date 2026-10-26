@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p><strong>Surrey EASy Research Group</strong></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -38,3 +38,13 @@ Our research spans a wide range of engineering applications:
 - **Robotics:** Mobile robots, autonomous navigation, and intelligent actuation
 - **Space Systems:** Spacecraft propulsion, power systems, and autonomous operations
 - **Maritime:** Electric propulsion, autonomous vessels, and energy-efficient marine systems
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        <img src="/assets/img/easy2026vision.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" style="width: 80%; height: auto;" alt="easy2026vision" />
+    </div>
+</div>
+
+<div class="text-center">
+    <em>Fig. 1. EASy research vision.</em>
+</div>

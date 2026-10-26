@@ -1,8 +1,11 @@
 github_users:
   - easy-research-lab
-  - Scott-p-uni
+  - SUZZIEDEVELOPS
 
 repo_description_lines_max: 2
 
 github_repos:
+  - easy-research-lab/smpp-car-following
   - easy-research-lab/gee-maps-cam
+  - easy-research-lab/Human-Motion-Prediction-Wearable-Hardware-System
+

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The Group held its induction meeting to welcome three new PhD students and introduce its research vision, working practices, and collaboration opportunities.
+The EASy Research Group held its induction meeting to welcome three new PhD students - Scott Paige, Eleanor Sharp, and Jing Yang - and introduce its research vision, working practices, and collaboration opportunities.
