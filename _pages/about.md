@@ -37,3 +37,4 @@ Our research spans a wide range of engineering applications:
 - **Aviation:** Electric aircraft, eVTOL, and autonomous aerial systems
 - **Robotics:** Mobile robots, autonomous navigation, and intelligent actuation
 - **Space Systems:** Spacecraft propulsion, power systems, and autonomous operations
+- **Maritime:** Electric propulsion, autonomous vessels, and energy-efficient marine systems
