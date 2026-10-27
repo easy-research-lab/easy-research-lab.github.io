@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Congratulations to Team SURTES, the University of Surrey's Formula Student team, on their outstanding performance at the IMechE Formula Student 2026 competition at Silverstone.
+Congratulations to <a href="https://www.teamsurtes.com/">Team SURTES</a>, the University of Surrey's Formula Student team, on their outstanding performance at the IMechE Formula Student 2026 competition at Silverstone.
 
 The team achieved 26th place out of 64 teams overall, including 7th out of 36 Internal Combustion (IC) teams and 6th among 26 UK IC teams.
 
@@ -29,6 +29,22 @@ Read more in <a href="https://www.surrey.ac.uk/news/surreys-formula-student-soci
     <em>Fig. 1. Team SURTES at the IMechE Formula Student 2026 competition at Silverstone.</em>
 </div>
 
+<div class="mt-3">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/aSHenHkmD74"
+      title="Formula Student 2026 - highlights so far"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
+<div class="text-center">
+    <em>Video. 1. Highlights from the IMechE Formula Student 2026 competition.</em>
+</div>
 
 

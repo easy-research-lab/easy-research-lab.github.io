@@ -20,9 +20,9 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 2 # leave blank to include all the blog posts
 ---
 
 The **Electric & Autonomous Systems (EASy) Research Group** is led by **Dr Ian (Yinglong) He**.
