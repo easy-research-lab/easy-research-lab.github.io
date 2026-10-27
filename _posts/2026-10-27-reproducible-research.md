@@ -3,19 +3,17 @@ layout: post
 title: Getting Started with GitHub for Reproducible Research
 date: 2026-10-27 09:00:00+0100
 description: A practical introduction to Git, GitHub, and reproducible research workflows for engineering students.
-tags: git github version-control reproducibility research-tools
-categories: tutorials
+tags: git reproducibility research-tools
+categories: tutorials 
 related_posts: false
 giscus_comments: true
 published: true
 author: Ian He
 ---
 
-Engineering research frequently involves developing models, writing simulation code, processing data, and comparing multiple design choices. As a project grows, it can become difficult to answer simple questions: **Which version produced this figure? What changed since the last simulation? Can someone else reproduce the result?**
+Engineering research frequently involves developing models, writing simulation code, analysing data, exploring design alternatives, preparing research papers in LaTeX or Overleaf, and maintaining technical documentation. As a project grows, it can become difficult to answer simple questions: **Which version produced this figure? What changed since the last simulation? Can someone else reproduce the result?**
 
 **Git** and **GitHub** can help. Git tracks changes to files over time; GitHub hosts repositories online and supports collaboration, code review, and sharing. Used alongside good documentation and environment management, they form an important part of a reproducible research workflow.
-
-This beginner-friendly guide introduces a workflow suitable for EASy PhD and MEng researchers working with Python, MATLAB, numerical simulations, and engineering models.
 
 ## 1. Why use GitHub in research?
 
@@ -24,7 +22,6 @@ Version control helps you:
 - **Track changes:** Know when and why a model, script, or parameter was modified.
 - **Recover previous versions:** Compare results or return to an earlier implementation.
 - **Collaborate:** Review changes before integrating them into a shared project.
-- **Connect results to code:** Record the version of code used for an experiment or figure.
 - **Share research:** Make methods easier to inspect, reuse, and cite when publication permissions allow.
 
 > GitHub is not a substitute for robust data storage, laboratory records, or validation. Reproducibility requires code, inputs, software dependencies, configuration, and instructions to be documented together.
@@ -35,14 +32,14 @@ Install [Git](https://git-scm.com/) and create a free account at [GitHub](https:
 
 ### Step 1: Clone a repository
 
-Open a repository on GitHub and copy its HTTPS URL. For example, an EASy research repository can be cloned with:
+Open a repository on GitHub and copy its HTTPS URL. For example, an EASy Lab research repository can be cloned with:
 
 ```bash
 git clone https://github.com/easy-research-lab/smpp-car-following.git
 cd smpp-car-following
 ```
 
-Cloning creates a local copy, including its version history. If you are using another project, replace the URL and directory name accordingly.
+Cloning creates a local copy, including its version history.
 
 ### Step 2: Create a branch
 
@@ -102,19 +99,17 @@ conda env create -f environment.yml
 conda activate engineering-research
 ```
 
-If you are preparing an environment specification from an existing Conda environment, a portable starting point is:
+After installing or updating packages, export the environment specification:
 
 ```bash
-conda export --from-history --format=environment-yaml > environment.yml
+conda env export > environment.yml
 ```
-
-Review the exported file before sharing it. A portable environment file helps others install the intended packages, but it does not guarantee identical versions on every platform. For stricter reproduction, record tested dependency versions and consider a lockfile or container.
 
 For **MATLAB** projects, document the MATLAB release and required toolboxes. For **simulation software**, also record the solver version, model settings, input files, and computational platform where relevant.
 
 ## 4. Organise a research repository clearly
 
-A straightforward research repository might use the following structure:
+A straightforward research repository might use the following example structure:
 
 ```text
 my-research-project/
@@ -133,8 +128,6 @@ my-research-project/
     └── README.md
 ```
 
-This is an **illustrative structure**, not a description of an existing EASy repository.
-
 The `README.md` should tell readers what the research does, what they need to install, how to run a minimal example, what outputs to expect, and which publication to cite. Where possible, include a small demonstration dataset and a baseline result that users can reproduce.
 
 Use a `.gitignore` file to exclude temporary files, local environments, and generated outputs that do not belong in version control. For example:
@@ -146,38 +139,39 @@ __pycache__/
 .ipynb_checkpoints/
 ```
 
-**Do not commit** passwords, API tokens, private participant data, confidential industrial datasets, or unpublished information that you are not authorised to share. Git history can retain sensitive material even after a file is deleted.
+**Do not commit** passwords, API tokens, confidential datasets, or unpublished information that you are not authorised to share. Git history can retain sensitive material even after a file is deleted.
 
-## 5. Link simulations and publications to a specific code version
-
-Imagine you are comparing two controllers for an electric vehicle. To make the study easier to reproduce, record:
-
-1. The Git commit identifier used to generate the reported results (`git rev-parse HEAD`).
-2. The model parameters, driving cycle, and data preprocessing steps.
-3. The software environment and solver settings.
-4. Any random seeds and details of repeated runs.
-5. Instructions to generate the key figures and tables.
-
-For a manuscript or thesis, document which code version produced each important result. If a repository is released publicly, a tagged version or archived release can provide a stable reference; the repository URL alone may change as new code is added.
-
-## 6. Good habits for EASy researchers
+## 5. Good habits for EASy researchers
 
 - Commit small, meaningful changes regularly.
 - Use descriptive branch and commit names.
 - Keep source code separate from large raw datasets and temporary outputs.
 - Include clear instructions for at least one reproducible example.
 - Review your code and results before merging changes.
-- Discuss with your supervisor what can be made public, especially for collaborative or industry-funded projects.
+- Discuss with your supervisor what can be made public, especially for collaborative projects.
 - Treat version control as part of research quality, not just software housekeeping.
 
-## 7. Useful resources
+## 6. Useful resources
 
 - [GitHub Docs: About Git](https://docs.github.com/en/get-started/using-git/about-git)
 - [GitHub Docs: Contributing to a project](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 - [GitHub Docs: Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 - [Conda: Managing environments](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html)
-- [EASy Research Group on GitHub](https://github.com/easy-research-lab)
 
-## Final thoughts
+<div class="mt-3">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/S0kw9OB2Tf0?si=lacW7CnEjm09RfA3"
+      title="Reproducible research - Version control with Git"
+      style="position: absolute; top: 0; left: 10%; width: 80%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
-**Reproducible engineering research starts with being able to explain exactly how a result was produced.** Git and GitHub make it easier to track code development and collaborate; documented environments, inputs, and validation make the results scientifically useful. Starting these practices early can save considerable time when writing papers, completing a PhD thesis, or transferring a project to another researcher.
+<div class="text-center">
+    <em>Video. 1. Reproducible research and version control with Git.</em>
+</div>
