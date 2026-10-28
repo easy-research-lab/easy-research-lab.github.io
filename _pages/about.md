@@ -2,14 +2,17 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.surrey.ac.uk/school-engineering'>School of Engineering, University of Surrey, Guildford, Surrey GU2 7XH, UK</a>. +44 (0)1483 688784. 
+subtitle: Lewis Carroll (AC) Building, <a href='https://www.surrey.ac.uk/school-engineering'>School of Engineering</a>, <a href="https://www.surrey.ac.uk/">University of Surrey</a>, Guildford, Surrey GU2 7XH, UK.
 
 profile:
   align: right
   image: easy_group_2026.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><strong>Surrey EASy Research Group</strong></p>
+    <p>Surrey EASy Research Group</p> 
+    <p>Contact: Dr Yinglong (Ian) He</p> 
+    <p>E: yh0015@surrey.ac.uk</p>
+    <p>T: +44 (0)1483 688784</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -25,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The **Electric & Autonomous Systems (EASy) Research Group** is led by **Dr Yinglong (Ian) He**.
+The **Electric & Autonomous Systems (EASy) Research Group** is led by <a href="https://www.surrey.ac.uk/people/yinglong-ian-he">Dr Yinglong (Ian) He</a>.
 
 Our mission is **to pioneer engineering solutions for sustainable and intelligent mobility**. 
 
