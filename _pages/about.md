@@ -11,8 +11,7 @@ profile:
   more_info: >
     <p>Surrey EASy Research Group</p> 
     <p>Contact: Dr Yinglong (Ian) He</p> 
-    <p>E: yh0015@surrey.ac.uk</p>
-    <p>T: +44 (0)1483 688784</p>
+    <p>Email: <a href="mailto:yh0015@surrey.ac.uk">yh0015@surrey.ac.uk</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
