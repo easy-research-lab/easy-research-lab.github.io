@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The **Electric & Autonomous Systems (EASy) Research Group** is led by **Dr Ian (Yinglong) He**.
+The **Electric & Autonomous Systems (EASy) Research Group** is led by **Dr Yinglong (Ian) He**.
 
 Our mission is **to pioneer engineering solutions for sustainable and intelligent mobility**. 
 

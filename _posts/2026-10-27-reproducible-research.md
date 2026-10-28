@@ -4,7 +4,7 @@ title: Getting Started with GitHub for Reproducible Research
 date: 2026-10-27 09:00:00+0100
 description: A practical introduction to Git, GitHub, and reproducible research workflows for engineering students.
 tags: git reproducibility research-tools
-categories: tutorials 
+categories: technical-tutorials 
 related_posts: false
 giscus_comments: true
 published: true
