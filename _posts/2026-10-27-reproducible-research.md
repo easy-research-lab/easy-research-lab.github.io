@@ -32,7 +32,7 @@ Install [Git](https://git-scm.com/) and create a free account at [GitHub](https:
 
 ### Step 1: Clone a repository
 
-Open a repository on GitHub and copy its HTTPS URL. For example, an EASy Lab research repository can be cloned with:
+Open a repository on GitHub and copy its HTTPS URL. For example, an EASy Group research repository can be cloned with:
 
 ```bash
 git clone https://github.com/easy-research-lab/smpp-car-following.git
