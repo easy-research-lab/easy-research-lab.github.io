@@ -8,7 +8,7 @@ related_posts: false
 
 Congratulations to our final-year project student <a href="https://www.linkedin.com/in/alexander-james-uni/">Alexander James</a> on receiving the IMechE Project Award, a prestigious individual award presented to just one student per university.
 
-Alex received the award for his dissertation on an energy conversion system for downhole applications, supervised by Dr Yinglong (Ian) He and developed in collaboration with <a href="https://www.bakerhughes.com/">Baker Hughes</a>.
+Alex received the award for his dissertation on an energy conversion system for downhole applications, supervised by Dr He and developed in collaboration with <a href="https://www.bakerhughes.com/">Baker Hughes</a>.
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">

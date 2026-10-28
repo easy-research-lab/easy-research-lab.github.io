@@ -10,7 +10,7 @@ Congratulations to <a href="https://www.teamsurtes.com/">Team SURTES</a>, the Un
 
 The team achieved 26th place out of 64 teams overall, including 7th out of 36 Internal Combustion (IC) teams and 6th among 26 UK IC teams.
 
-We are particularly pleased to recognise the contributions of EASy PhD student <a href="https://www.linkedin.com/in/scott-paige-7024661ba/">Scott Paige</a> and MEng student <a href="https://www.linkedin.com/in/elliotphoenix/">Elliot Phoenix</a>. Elliot also completed an EPSRC-funded summer research internship on advanced electric machines under the supervision of Dr Yinglong (Ian) He, who serves as the Faculty Advisor to Team SURTES.
+We are particularly pleased to recognise the contributions of EASy PhD student <a href="https://www.linkedin.com/in/scott-paige-7024661ba/">Scott Paige</a> and MEng student <a href="https://www.linkedin.com/in/elliotphoenix/">Elliot Phoenix</a>. Elliot also completed an EPSRC-funded summer research internship on advanced electric machines under the supervision of Dr He, who serves as the Faculty Advisor to Team SURTES.
 
 These achievements highlight EASy's commitment to student development, practical engineering, and innovation in electric and autonomous systems.
 

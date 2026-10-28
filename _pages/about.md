@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Surrey EASy Research Group</p> 
-    <p>Contact: Dr Yinglong (Ian) He</p> 
+    <p>Contact: Dr Yinglong He</p> 
     <p>Email: <a href="mailto:yh0015@surrey.ac.uk">yh0015@surrey.ac.uk</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The **Electric & Autonomous Systems (EASy) Research Group** is led by <a href="https://www.surrey.ac.uk/people/yinglong-ian-he">Dr Yinglong (Ian) He</a>.
+**Electric & Autonomous Systems (EASy) Research Group** is led by <a href="https://www.surrey.ac.uk/people/yinglong-ian-he">Dr Yinglong (Ian) He</a>.
 
 Our mission is **to pioneer engineering solutions for sustainable and intelligent mobility**. 
 
