@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Electric & Autonomous Systems (EASy) Research Group** is led by <a href="https://www.surrey.ac.uk/people/yinglong-ian-he">Dr Yinglong (Ian) He</a>.
+**Electrified & Automated Mobility (EASy) Research Group** is led by <a href="https://www.surrey.ac.uk/people/yinglong-ian-he">Dr Yinglong (Ian) He</a>.
 
 Our mission is **to pioneer engineering solutions for sustainable and intelligent mobility**. 
 
@@ -36,14 +36,12 @@ EASy brings together research in **electrification, automation, intelligent cont
 Our research spans a wide range of engineering applications:
 
 - **Automotive:** Electric vehicles, autonomous driving, and intelligent energy management
-- **Aviation:** Electric aircraft, eVTOL, and autonomous aerial systems
 - **Robotics:** Mobile robots, autonomous navigation, and intelligent actuation
-- **Space Systems:** Spacecraft propulsion, power systems, and autonomous operations
-- **Maritime:** Electric propulsion, autonomous vessels, and energy-efficient marine systems
+- **Aviation:** Electric aircraft, eVTOL, and autonomous aerial systems
 
 <div class="row">
     <div class="col-sm-12 mt-3 mt-md-0">
-        <img src="/assets/img/easy2026vision.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" style="width: 80%; height: auto;" alt="easy2026vision" />
+        <img src="/assets/img/easy2026vision.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" style="width: 60%; height: auto;" alt="easy2026vision" />
     </div>
 </div>
 
